@@ -1,5 +1,4 @@
-import numpy as np
-import requests as r
+import curl_cffi as requests
 
 class Ratio():
     def __init__(self):
