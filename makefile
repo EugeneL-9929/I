@@ -15,6 +15,8 @@ $(TARGET): $(OBJECTS)
 ./build/%.o: ./src/%.cpp # ensure every .o corresponds to respective .c
 	@echo "objects $(OBJECTS), sources $(SOURCES)" 
 	$(CC) $(CFLAGS) -c $< -o $@ 
+# < means the src files and @ means the dst files
+# means single line comment
 
 # clear all
 clean: 
