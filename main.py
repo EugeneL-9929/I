@@ -1,4 +1,5 @@
-import curl_cffi as requests
+import numpy as np
+import json
 
 class Ratio():
     def __init__(self):
