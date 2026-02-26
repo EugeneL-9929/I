@@ -13,7 +13,7 @@ fi
 
 # checking library in the venv
 echo "checking the necessary libraries."
-LBS_NAME="os pathlib curl_cffi"
+LBS_NAME="os json pathlib curl_cffi"
 for LB in $LBS_NAME; do
     if python3 -c "import $LB" >/dev/null 2>&1; then
         echo "$LB library exists."
