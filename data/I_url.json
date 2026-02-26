@@ -1,0 +1,5 @@
+{
+    "stock_url" : "https://tvc4.investing.com/0f6be6d38f3142ca38ef32dfad7f194d/1762077239/1/1/8/history?",
+    "economic_url" : "https://sbcharts.investing.com/events_charts/us/${economic_data_name}.json",
+    "ratio_url" : "https://hk.investing.com/equities/${ratio_name}-ratios"
+}
