@@ -1,6 +1,8 @@
 # compiler and compiling options
 CC = g++
 CFLAGS = -Wall -g
+LFLAGS = -L./
+LLIBS = -lcurl
 
 # target and source
 TARGET = ./compile/my_program
